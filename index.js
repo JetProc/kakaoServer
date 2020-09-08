@@ -107,6 +107,6 @@ const timetable = [
   ["응프", "응프", "화I", "문학", "수II", "공수", "7교시 : HR"],
   ["영어", "화I", "자구", "문학", "중국어I", "성직", "7교시 : 운건"],
 ];
-app.listen(3004, function () {
+app.listen(process.env.PORT || 8080, function () {
   console.log("Example skill server listening on port 3000!");
 });
